@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Card from "./components/Card";
+import Maestro from "./components/pages/maestro";
 /* import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals'; */
@@ -20,14 +21,15 @@ root.render(
 const root=ReactDOM.createRoot(
  document.getElementById('root')
 )
+root.render(
+<Maestro/>
+)
 
 
-
-root.render(<Card 
+/* <Card 
 nombre="sebas" 
 edad="17"
-color="gray" 
-/>)
+color="gray"  */
 
 /* const contenedor = document.getElementById('root')
 ReactDOM.render(element,contenedor) */

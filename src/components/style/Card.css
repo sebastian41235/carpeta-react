@@ -1,17 +1,20 @@
 .card{
-margin: 30%;
-}
-.back{
-    
+margin: 60%;
+background-color: bisque;
+display: flex;
+justify-content:center;
+flex-direction: column;
+align-items: center;
+margin-top: -10%;
+margin-left: 20%;
 }
 .font{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 100%;
-    color: gray;
-    text-align: center;
+    color: black;
 }
 .porta{
     height: 500%;
-    border-radius: 50%;
-margin-left: -25%;
+    margin-left: -5%;
+    
 }

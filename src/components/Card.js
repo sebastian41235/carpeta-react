@@ -1,21 +1,19 @@
 import React from "react";
-import koku from "./imagenes/koku2.png"
-import "./style/Card.css"
+/*import koku from "./imagenes/koku2.webp"*/
+import "./style/Card.css";
 
 
 
 
 class Card extends React.Component{
 render(){
-const {nombre,edad,color}=this.props
+const {nombre,descripcion,img,color}=this.props
     return (
-    <div className="card back">
-        <div className="font">
-            <h1 style={{color:`${color}`}}>hola progoku41235 {nombre} tu edad es {edad}</h1>
-            </div>
-    <div className="porta">
-        <img src={koku}></img>
-        </div>
+    <div className="card" style={{background:`${color}`}}>
+            <h1>{nombre}</h1>
+            <p>{descripcion}</p>
+            <img src={img} className="porta" alt=""/>
+       
     </div>
  )
 }
